@@ -8,7 +8,7 @@ import h5py
 
 import utils
 from build import load_data
-from sfm import SFM,LSTM
+from sfm import SFM
 from train import train_lstm,test,train_sfm,test_sfm
 from utils import plot_results,ToVariable,use_cuda
 from option_parser import OptionParser
@@ -34,7 +34,6 @@ def main():
     opt.val_len = x_val.shape[1]-x_train.shape[1]
     opt.test_len = x_test.shape[1]-x_val.shape[1]
 
-    lstm = LSTM(1,50,1)
     sfm = SFM(1,50,20,1)
 
     
@@ -45,10 +44,6 @@ def main():
     if opt.net not in ["lstm","sfm"]:
         raise NameError("Undefined net!!")
 
-    if opt.net == "lstm":
-        net = lstm
-        train_function = train_lstm
-        test_function = test
 
     print("Using net: %s"%(opt.net))
 
