@@ -33,35 +33,35 @@ def train_lstm(model,x_train,y_train,epochs=10):
 
     torch.save(model, 'model/model.pkl')
 
-def test(model,x_test,y_test,opt):
-    model = torch.load('model/model.pkl')
-    model.eval()
-    pred_dat = []
-
-    h,c = model.init_state()    
-    seq_len = x_test.shape[1]
-
-    for i in range(0,seq_len):
-        x = ToVariable(x_test[:,i,:])
-        x = x.view(-1,1,1)
-        pre_out,h,c =  model(x,h,c)
-        h = h.data
-        c = c.data
-        if use_cuda:
-            pred_dat.append(pre_out.data.cpu().numpy())
-        else:
-            pred_dat.append(pre_out.data.numpy())
-        
-    pred_dat=np.array(pred_dat)
-
-    pred_dat = pred_dat.transpose(1,0,2)
-    pred_dat = (pred_dat[:,:, 0] * (opt.max_data - opt.min_data) + (opt.max_data + opt.min_data))/2
-    y_test = (y_test[:,:, 0] * (opt.max_data - opt.min_data) + (opt.max_data + opt.min_data))/2
-
-    error = np.sum((pred_dat[:,-opt.test_len:] - y_test[:,-opt.test_len:])**2) / (opt.test_len* pred_dat.shape[0])
-    print('The mean square error is: %f' % error)
-
-    plot_results(pred_dat[0,-opt.test_len:],y_test[0,-opt.test_len:])
+# def test(model,x_test,y_test,opt):
+#     model = torch.load('model/model.pkl')
+#     model.eval()
+#     pred_dat = []
+#
+#     h,c = model.init_state()
+#     seq_len = x_test.shape[1]
+#
+#     for i in range(0,seq_len):
+#         x = ToVariable(x_test[:,i,:])
+#         x = x.view(-1,1,1)
+#         pre_out,h,c =  model(x,h,c)
+#         h = h.data
+#         c = c.data
+#         if use_cuda:
+#             pred_dat.append(pre_out.data.cpu().numpy())
+#         else:
+#             pred_dat.append(pre_out.data.numpy())
+#
+#     pred_dat=np.array(pred_dat)
+#
+#     pred_dat = pred_dat.transpose(1,0,2)
+#     pred_dat = (pred_dat[:,:, 0] * (opt.max_data - opt.min_data) + (opt.max_data + opt.min_data))/2
+#     y_test = (y_test[:,:, 0] * (opt.max_data - opt.min_data) + (opt.max_data + opt.min_data))/2
+#
+#     error = np.sum((pred_dat[:,-opt.test_len:] - y_test[:,-opt.test_len:])**2) / (opt.test_len* pred_dat.shape[0])
+#     print('The mean square error is: %f' % error)
+#
+#     plot_results(pred_dat[6,-opt.test_len:],y_test[6,-opt.test_len:])
     
 def train_sfm(model,x_train,y_train,epochs=10):
     optimizer = optim.Adam(model.parameters())
@@ -125,7 +125,9 @@ def test_sfm(model,x_test,y_test,opt):
     pred_dat = (pred_dat[:,:, 0] * (opt.max_data - opt.min_data) + (opt.max_data + opt.min_data))/2
     y_test = (y_test[:,:, 0] * (opt.max_data - opt.min_data) + (opt.max_data + opt.min_data))/2
 
-    error = np.sum((pred_dat[:,-opt.test_len:] - y_test[:,-opt.test_len:])**2) / (opt.test_len* pred_dat.shape[0])
+    # error = np.sum((pred_dat[:,-opt.test_len:] - y_test[:,-opt.test_len:])**2) / (opt.test_len* pred_dat.shape[0])
+    error = np.mean((pred_dat[5, -opt.test_len:] - y_test[5, -opt.test_len:]) ** 2)
+
     print('The mean square error is: %f' % error)
 
-    plot_results(pred_dat[0,-opt.test_len:],y_test[0,-opt.test_len:])
+    plot_results(pred_dat[6,-opt.test_len:],y_test[6,-opt.test_len:])

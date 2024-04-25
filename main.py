@@ -7,9 +7,9 @@ import numpy as np
 import h5py
 
 import utils
-from build import load_data
+from build import load_data, load_roll_data
 from sfm import SFM
-from train import train_lstm,test,train_sfm,test_sfm
+from train import train_lstm,train_sfm,test_sfm
 from utils import plot_results,ToVariable,use_cuda
 from option_parser import OptionParser
 
@@ -25,9 +25,9 @@ def main():
     epochs = opt.epochs
     # data = np.load(npy_filepath, allow_pickle=True)
     # print(data)
-    
+    # seq_len = 10  # Length of the input sequences
     x_train, y_train, x_val, y_val,x_test, y_test, gt_test, max_data, min_data = load_data(npy_filepath,step)
-
+    # x_train, y_train, x_val, y_val, x_test, y_test, max_data, min_data = load_roll_data(npy_filepath, seq_len, step, 6)
     opt.max_data = max_data
     opt.min_data = min_data
     opt.train_len = x_train.shape[1]
