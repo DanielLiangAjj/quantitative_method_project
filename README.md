@@ -40,6 +40,6 @@ Liheng Zhang, Charu Aggarwal, Guo-Jun Qi, Stock Price Prediction via Discovering
     Canada, August 13-17, 2017.
 
 ## SFM Code Adapted and Modified from
-[Vue](https://github.com/yakouyang/State_Frequency_Memory_Pytorch)
+[State_Frequency_Memory_Pytorch](https://github.com/yakouyang/State_Frequency_Memory_Pytorch)
 
     
