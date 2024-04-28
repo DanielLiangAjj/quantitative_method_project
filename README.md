@@ -1,4 +1,4 @@
-**CNY/USD Prediction Result:**
+# CNY/USD Prediction Result:
 
 SFM Prediction Result Without Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.002125
 
@@ -16,7 +16,7 @@ LSTM Prediction Result Using Wavelet Transform for CNY/USD Foreign Exchange Mark
 
 ![CNY_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/5f96bd89-ec29-496e-85ab-8bfb1288b21d)
 
-**CAD/USD Prediction Result:**
+# CAD/USD Prediction Result:
 
 SFM Prediction Result Without Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 0.000213
 
@@ -33,3 +33,13 @@ LSTM Prediction Result Without Using Wavelet Transform for CAD/USD Foreign Excha
 LSTM Prediction Result Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 1.8290366209809872e-05
 
 ![CAD_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/3cfae19b-6da0-473f-be86-707a7b27ab0e)
+
+## Project Inspired by 
+Liheng Zhang, Charu Aggarwal, Guo-Jun Qi, Stock Price Prediction via Discovering Multi-Frequency Trading Patterns,
+    in Proceedings of ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD 2017), Halifax, Nova Scotia,
+    Canada, August 13-17, 2017.
+
+## SFM Code Adapted and Modified from
+[Vue](https://github.com/yakouyang/State_Frequency_Memory_Pytorch)
+
+    
