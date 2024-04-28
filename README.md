@@ -14,7 +14,7 @@ LSTM Prediction Result Without Using Wavelet Transform for CNY/USD Foreign Excha
 
 LSTM Prediction Result Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.00022814305427729196
 
-![WechatIMG449](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/855c379c-2db8-4494-a909-a26ea38ab94a)
+![CNY_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/5f96bd89-ec29-496e-85ab-8bfb1288b21d)
 
 **CAD/USD Prediction Result:**
 
