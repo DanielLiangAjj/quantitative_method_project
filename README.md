@@ -1,3 +1,5 @@
+**CNY/USD Prediction Result:**
+
 SFM Prediction Result Without Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.002125
 ![SFM_without_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/34aa0f02-ad3c-4e0e-80d7-90d19147b32d)
 
