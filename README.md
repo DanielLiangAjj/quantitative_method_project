@@ -32,4 +32,4 @@ LSTM Prediction Result Without Using Wavelet Transform for CAD/USD Foreign Excha
 
 LSTM Prediction Result Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 1.8290366209809872e-05
 
-![CAD_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/a3984c11-e3c9-4c83-965e-938ac90f247c)
+![CAD_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/3cfae19b-6da0-473f-be86-707a7b27ab0e)
