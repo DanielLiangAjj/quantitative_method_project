@@ -24,7 +24,7 @@ SFM Prediction Result Without Using Wavelet Transform for CAD/USD Foreign Exchan
 
 SFM Prediction Result Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 0.000196
 
-![SFM_with_wavelet_transform](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/08efc17a-8bf3-4c02-8672-6d357c959b3e)
+![SFM_CAD_wavelet_transform](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/7192c143-3759-4048-9613-80ddd806d601)
 
 LSTM Prediction Result Without Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 3.470406363175438e-05
 
