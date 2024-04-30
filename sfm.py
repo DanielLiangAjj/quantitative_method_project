@@ -34,6 +34,7 @@ class SFM(nn.Module):
         self.output = nn.Linear(hidden_size, output_size)
 
         # Precompute omega as a constant, based on frequency size
+        '''Frequency Components'''
         self.omega = Variable(torch.tensor(2 * np.pi * np.arange(1, self.freq_size + 1) / self.freq_size).float())
 
         # Initialize parameters
@@ -111,6 +112,8 @@ class SFM(nn.Module):
 
         # exp_damping = torch.exp(-time.pow(2) / 2)
         # pi_coefficient = np.pi ** (-0.25)
+        '''Cosine and Sine Transformations:
+        Compute the cosine and sine values of the frequency components for each time step'''
         cos_part = torch.cos(self.omega * time).unsqueeze(0)
         sin_part = torch.sin(self.omega * time).unsqueeze(0)
 
