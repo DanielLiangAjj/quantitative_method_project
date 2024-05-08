@@ -24,6 +24,15 @@
 
 ![CNY_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/5f96bd89-ec29-496e-85ab-8bfb1288b21d)
 
+**LSTM** Prediction Result for **7 day** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.0037882266253429593** and **relative mse of 0.18334334425296941**
+
+<img width="1015" alt="Screenshot 2024-05-08 at 6 32 29 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/6a01057a-b8ec-4d5a-9170-7b4ce5c7ec55">
+
+**LSTM** Prediction Result for **7 day** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.004121296665305217** and **relative mse of 0.1994633341682037**
+
+<img width="1014" alt="Screenshot 2024-05-08 at 6 35 58 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/03cf1881-997e-4455-bf69-2b614ca71301">
+
+
 ## CAD/USD Prediction Result:
 
 **SFM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000022** and **relative mse of 0.08975**
