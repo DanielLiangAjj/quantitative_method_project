@@ -50,6 +50,15 @@ LSTM Prediction Result Using Wavelet Transform for CAD/USD Foreign Exchange Mark
 
 ![CAD_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/3cfae19b-6da0-473f-be86-707a7b27ab0e)
 
+**LSTM** Prediction Result for **7 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.00010998734393522309** and **relative mse of 0.4848473794803649**
+
+<img width="990" alt="Screenshot 2024-05-08 at 5 50 24 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/30a3bb8d-3255-4906-a445-0b72c044433f">
+
+**LSTM** Prediction Result for **7 day** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.00012634266317769962** and **relative mse of 0.5569450717380287**
+
+<img width="989" alt="Screenshot 2024-05-08 at 5 55 29 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/86828285-e0de-4906-b0bd-90964155a978">
+
+
 ## Note
 Relative MSE = MSE/VAR(y)
 
