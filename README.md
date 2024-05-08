@@ -70,6 +70,9 @@
 
 ## Note
 Relative MSE = MSE/VAR(y)
+SFM stands for State Frequency Memory
+LSTM stands for Long Short-Term Memory
+This project uses three models: SFM, LSTM, and Multi-Step LSTM
 
 ## Project Inspired by 
 Liheng Zhang, Charu Aggarwal, Guo-Jun Qi, Stock Price Prediction via Discovering Multi-Frequency Trading Patterns,
