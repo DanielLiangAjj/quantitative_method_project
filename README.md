@@ -16,11 +16,11 @@
 
 ![SFM | no denoise | step 7 | mse 0 002984 | relative mse 0 126253 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/a2633696-f370-44b9-bef5-8a3887dfd2c1)
 
-LSTM Prediction Result Without Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.0003530398104427771
+**LSTM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.0003530398104427771** and **relative mse of 0.0124182**
 
 ![WechatIMG448](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/df34f53b-2245-4c3d-9c8e-bb0fe38347d5)
 
-LSTM Prediction Result Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.00022814305427729196
+**LSTM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.0002275145824628163** and **relative mse of 0.008454839**
 
 ![CNY_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/5f96bd89-ec29-496e-85ab-8bfb1288b21d)
 
