@@ -22,7 +22,7 @@ def load_data(filename, step, denoise):
     data = np.load(filename)
 
     if denoise:
-        cny_usd_prices = data[5]
+        cny_usd_prices = data[6]
         print(cny_usd_prices)
         denoised_prices = wavelet_denoise(cny_usd_prices)
         denoised_prices = denoised_prices.reshape(1, -1)

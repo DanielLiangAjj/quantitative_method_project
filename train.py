@@ -15,6 +15,7 @@ def train_sfm(model,x_train,y_train,epochs=10):
     X,Y = shuffle_data(x_train,y_train)
 
     x_len = X.shape[1]
+
     # Convert data to torch Variable
     X = ToVariable(X)
     Y = ToVariable(Y)
@@ -93,13 +94,15 @@ def test_sfm(model,x_test,y_test,opt,denoise):
 
     # error = np.sum((pred_dat[:,-opt.test_len:] - y_test[:,-opt.test_len:])**2) / (opt.test_len* pred_dat.shape[0])
     if denoise:
-        error = mean_squared_error(pred_dat[-1, -opt.test_len+1:] , y_test[5, -opt.test_len+1:])
+        error = mean_squared_error(pred_dat[-1, -opt.test_len+1:] , y_test[6, -opt.test_len+1:])
     else:
-        error = mean_squared_error(pred_dat[5, -opt.test_len+1:] , y_test[5, -opt.test_len+1:])
-
+        error = mean_squared_error(pred_dat[6, -opt.test_len+1:] , y_test[6, -opt.test_len+1:])
+    variance_y = np.var(y_test[6, -opt.test_len + 1:])
+    relative_mse = error / variance_y
     print('The mean square error is: %f' % error)
+    print('The relative mean square error is: %f' % relative_mse)
     # Plotting the Prediction Results
     if denoise:
-        plot_results(pred_dat[-1, -opt.test_len+1:], y_test[5, -opt.test_len+1:])
+        plot_results(pred_dat[-1, -opt.test_len+1:], y_test[6, -opt.test_len+1:])
     else:
-        plot_results(pred_dat[5,-opt.test_len+1:],y_test[5,-opt.test_len+1:])
+        plot_results(pred_dat[6,-opt.test_len+1:],y_test[6,-opt.test_len+1:])
