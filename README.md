@@ -1,12 +1,16 @@
-# CNY/USD Prediction Result:
+## CNY/USD Prediction Result:
 
-SFM Prediction Result Without Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.002125
+**SFM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.00043** and **relative mse of 0.016276**
+![SFM | step 1 | no denoise | mse 0 00043 | relative mse 0 016276 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/7d464f4f-b865-41a2-865e-e78d3124db9e)
 
-![SFM_without_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/34aa0f02-ad3c-4e0e-80d7-90d19147b32d)
+**SFM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.000335** and **relative mse of 0.012681**
+![SFM | denoised | step 1 | mse 0 000335 | relative mse 0 012681 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/217cb36f-99d4-4513-bfa5-1b90a009bc7f)
 
-SFM Prediction Result Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.002043
+**SFM** Prediction Result for **7 days** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.002535** and **relative mse of 0.107263**
+![SFM | denoised | step 7 | mse 0 002535 | relative mse 0 107263 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/ee67a385-8c8b-4c4d-82fd-75c41953f2f8)
 
-![SFM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/ab838d37-5891-4886-a5e1-b1f620f1845f)
+**SFM** Prediction Result for **7 days** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.002984** and **relative mse of 0.126253**
+![SFM | no denoise | step 7 | mse 0 002984 | relative mse 0 126253 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/a2633696-f370-44b9-bef5-8a3887dfd2c1)
 
 LSTM Prediction Result Without Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.0003530398104427771
 
@@ -16,15 +20,19 @@ LSTM Prediction Result Using Wavelet Transform for CNY/USD Foreign Exchange Mark
 
 ![CNY_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/5f96bd89-ec29-496e-85ab-8bfb1288b21d)
 
-# CAD/USD Prediction Result:
+## CAD/USD Prediction Result:
 
-SFM Prediction Result Without Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 0.000213
+**SFM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000022** and **relative mse of 0.08975**
+![SFM | no_denoise | step 1 | mse 0 000022 | relative mse 0 08975 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/6c4499c4-ed7a-4225-bccd-0c55a89d4919)
 
-![canada_sfm_without_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/3e8c9720-1f8b-492f-b38b-5262687be415)
+**SFM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000018** and **relative mse of 0.07289**
+![SFM | denoised | step 1 | mse 0 000018 |  relative mse  0 07289 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/eece816d-0526-4dff-8fc0-4ae4395f2db3)
 
-SFM Prediction Result Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 0.000196
+**SFM** Prediction Result for **7 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000159** and **relative mse of 0.708361**
+![SFM | no_denoise | step 7 | mse 0 000159 | relative mse 0 708361 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/921d1a76-b6c0-4f7c-b596-9e36390e7f8d)
 
-![SFM_CAD_wavelet_transform](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/7192c143-3759-4048-9613-80ddd806d601)
+**SFM** Prediction Result for **7 days** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000147** and **relative mse of 0.65394**
+![SFM | denoised | step 7 | mse 0 000147 | relative mse 0 65394 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/abcf99b4-fd62-4132-914b-e42800220f4b)
 
 LSTM Prediction Result Without Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 3.470406363175438e-05
 
@@ -33,6 +41,9 @@ LSTM Prediction Result Without Using Wavelet Transform for CAD/USD Foreign Excha
 LSTM Prediction Result Using Wavelet Transform for CAD/USD Foreign Exchange Market with mse of 1.8290366209809872e-05
 
 ![CAD_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/3cfae19b-6da0-473f-be86-707a7b27ab0e)
+
+## Note
+Relative MSE = MSE/VAR(y)
 
 ## Project Inspired by 
 Liheng Zhang, Charu Aggarwal, Guo-Jun Qi, Stock Price Prediction via Discovering Multi-Frequency Trading Patterns,
