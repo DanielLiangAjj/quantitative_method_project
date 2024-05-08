@@ -51,11 +51,11 @@
 
 ![SFM | denoised | step 7 | mse 0 000147 | relative mse 0 65394 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/abcf99b4-fd62-4132-914b-e42800220f4b)
 
-**LSTM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 3.470406363175438e-05**
+**LSTM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 5.980701870462418e-05** and **relative mse of 0.2477068888221327**
 
 ![cad_lstm_without_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/07dc8003-4448-4eb4-8f65-927bd357960b)
 
-**LSTM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 1.8290366209809872e-05**
+**LSTM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 2.3531084607891723e-05** and **relative mse of 0.09746032965827403**
 
 ![CAD_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/3cfae19b-6da0-473f-be86-707a7b27ab0e)
 
