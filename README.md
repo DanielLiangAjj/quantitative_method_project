@@ -1,4 +1,4 @@
-## CNY/USD Prediction Result:
+## CNY/USD Prediction Result （Testing Dataset Variance: 0.026909392040267096):
 
 **SFM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.00043** and **relative mse of 0.016276**
 
@@ -33,7 +33,8 @@
 <img width="1014" alt="Screenshot 2024-05-08 at 6 35 58 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/03cf1881-997e-4455-bf69-2b614ca71301">
 
 
-## CAD/USD Prediction Result:
+## CAD/USD Prediction Result （Testing Dataset Variance: 0.00022684941404262516):
+**Note:** Since the variance for CAD/USD dataset is very small compared to that of CNY/USD dataset, the mse and relative mse are different such that sometimes SFM might perform better and sometimes LSTM does, therefore making it difficult to draw a clear conclusion of which model is better under which scenario. Although the mse and relative mse from the CNY/USD dataset will also be different everytime the models are trained, the variance of the testing dataset is large enough such that, mse and relative mse of each model show consistent result that SFM is better at multi-step forward fx rate prediction, and LSTM is better at single day forward prediction.
 
 **SFM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000022** and **relative mse of 0.08975**
 
