@@ -34,7 +34,7 @@
 
 
 ## CAD/USD Prediction Result （Testing Dataset Variance: 0.00022684941404262516):
-**Note:** Since the variance for CAD/USD dataset is very small compared to that of CNY/USD dataset, the mse and relative mse are different such that sometimes SFM might perform better and sometimes LSTM does, therefore making it difficult to draw a clear conclusion of which model is better under which scenario. Although the mse and relative mse from the CNY/USD dataset will also be different everytime the models are trained, the variance of the testing dataset is large enough such that, mse and relative mse of each model show consistent result that SFM is better at multi-step forward fx rate prediction, and LSTM is better at single day forward prediction.
+**Note:** Since the variance for CAD/USD dataset is very small compared to that of CNY/USD dataset, the mse and relative mse are different in the way that sometimes SFM might perform better and sometimes LSTM does, therefore making it difficult to draw a clear conclusion of which model is better under which scenario. Although the mse and relative mse from the CNY/USD dataset will also be different everytime the models are trained, the variance of the testing dataset is large enough such that, mse and relative mse of each model show consistent result that SFM is better at multi-step forward fx rate prediction, and LSTM is better at single day forward prediction.
 
 **SFM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000022** and **relative mse of 0.08975**
 
