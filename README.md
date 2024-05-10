@@ -14,7 +14,7 @@
 
 **SFM** Prediction Result for **7 days** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.002535** and **relative mse of 0.107263**
 
-![SFM | denoised | step 7 | mse 0 002535 | relative mse 0 107263 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/ee67a385-8c8b-4c4d-82fd-75c41953f2f8
+![SFM | denoised | step 7 | mse 0 002535 | relative mse 0 107263 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/ee67a385-8c8b-4c4d-82fd-75c41953f2f8)
 
 ![SFM_CNY_MULTI_DENOISE](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/7aaf2b83-7210-4489-aa25-442111ab7806)
 
