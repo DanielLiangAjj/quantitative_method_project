@@ -10,7 +10,7 @@
 
 **SFM** Prediction Result for **7 days** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.002535** and **relative mse of 0.107263**
 
-![SFM | denoised | step 7 | mse 0 002535 | relative mse 0 107263 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/ee67a385-8c8b-4c4d-82fd-75c41953f2f8)
+![SFM | denoised | step 7 | mse 0 002535 | relative mse 0 107263 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/ee67a385-8c8b-4c4d-82fd-75c41953f2f8
 
 **SFM** Prediction Result for **7 days** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.002984** and **relative mse of 0.126253**
 
@@ -47,17 +47,25 @@
 
 ![SFM | no_denoise | step 1 | mse 0 000022 | relative mse 0 08975 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/6c4499c4-ed7a-4225-bccd-0c55a89d4919)
 
+![SFM_CAD_SINGLE_NO](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/b53906bb-10ec-417f-8e55-43cb7f2b7e8f)
+
 **SFM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000018** and **relative mse of 0.07289**
 
 ![SFM | denoised | step 1 | mse 0 000018 |  relative mse  0 07289 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/eece816d-0526-4dff-8fc0-4ae4395f2db3)
+
+![SFM_CAD_SINGLE_DENOISE](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/776a081a-bb8d-46c2-aece-10b683d43833)
 
 **SFM** Prediction Result for **7 days** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000159** and **relative mse of 0.708361**
 
 ![SFM | no_denoise | step 7 | mse 0 000159 | relative mse 0 708361 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/921d1a76-b6c0-4f7c-b596-9e36390e7f8d)
 
+![SFM_CAD_MSE_MULTI_NO](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/00adcbcc-c706-44bd-ae3b-52f71d764685)
+
 **SFM** Prediction Result for **7 days** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.000147** and **relative mse of 0.65394**
 
 ![SFM | denoised | step 7 | mse 0 000147 | relative mse 0 65394 | CAD](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/abcf99b4-fd62-4132-914b-e42800220f4b)
+
+![SFM_CAD_MULTI_DENOISE](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/bc285e2e-d201-49e7-8d93-34be5bbd8eaa)
 
 **LSTM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 5.980701870462418e-05** and **relative mse of 0.2477068888221327**
 
