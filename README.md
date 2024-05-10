@@ -4,17 +4,25 @@
 
 ![SFM | step 1 | no denoise | mse 0 00043 | relative mse 0 016276 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/7d464f4f-b865-41a2-865e-e78d3124db9e)
 
+![SFM_CNY_SINGLE_NO](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/885999b1-3698-462f-92f4-fbabf2f05f72)
+
 **SFM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.000335** and **relative mse of 0.012681**
 
 ![SFM | denoised | step 1 | mse 0 000335 | relative mse 0 012681 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/217cb36f-99d4-4513-bfa5-1b90a009bc7f)
+
+![SFM_CNY_SINGLE_DENOISE](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/2531e40a-2e5e-421b-a344-d2f38c8653c7)
 
 **SFM** Prediction Result for **7 days** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.002535** and **relative mse of 0.107263**
 
 ![SFM | denoised | step 7 | mse 0 002535 | relative mse 0 107263 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/ee67a385-8c8b-4c4d-82fd-75c41953f2f8
 
+![SFM_CNY_MULTI_DENOISE](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/7aaf2b83-7210-4489-aa25-442111ab7806)
+
 **SFM** Prediction Result for **7 days** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.002984** and **relative mse of 0.126253**
 
 ![SFM | no denoise | step 7 | mse 0 002984 | relative mse 0 126253 | CNY](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/a2633696-f370-44b9-bef5-8a3887dfd2c1)
+
+![SFM_CNY_MULTI_NO](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/7fcd5459-569c-4383-84d5-cc815da5767d)
 
 **LSTM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.0003530398104427771** and **relative mse of 0.0124182**
 
