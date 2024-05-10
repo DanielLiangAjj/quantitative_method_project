@@ -20,18 +20,25 @@
 
 ![WechatIMG448](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/df34f53b-2245-4c3d-9c8e-bb0fe38347d5)
 
+![LSTM_CNY_SINGLE_MSE_NO_DENOISE](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/aed5b348-6769-4a5e-91cb-850b7c9ed1e0)
+
 **LSTM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.0002275145824628163** and **relative mse of 0.008454839**
 
 ![CNY_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/5f96bd89-ec29-496e-85ab-8bfb1288b21d)
+
+![LSTM_CNY_SINGLE_MSE_DENOISE](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/49eaa828-b1d4-4ad6-a066-5f3336971d8e)
 
 **LSTM** Prediction Result for **7 days** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.0037882266253429593** and **relative mse of 0.18334334425296941**
 
 <img width="1015" alt="Screenshot 2024-05-08 at 6 32 29 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/6a01057a-b8ec-4d5a-9170-7b4ce5c7ec55">
 
+![LSTM_CNY_MULTI_NO](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/b1ac409d-97b2-46a1-adb9-46e4418d9f73)
+
 **LSTM** Prediction Result for **7 days** forward **Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.004121296665305217** and **relative mse of 0.1994633341682037**
 
 <img width="1014" alt="Screenshot 2024-05-08 at 6 35 58 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/03cf1881-997e-4455-bf69-2b614ca71301">
 
+![LSTM_CNY_MULTI_DENOISED](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/6025c6a6-2ffe-41b1-a1fe-da04482da1ed)
 
 ## CAD/USD Prediction Result （Testing Dataset Variance: 0.00022684941404262516):
 **Note:** Since the variance for CAD/USD dataset is very small compared to that of CNY/USD dataset, the mse and relative mse are different in the way that sometimes SFM might perform better and sometimes LSTM does, therefore making it difficult to draw a clear conclusion of which model is better under which scenario. Although the mse and relative mse from the CNY/USD dataset will also be different everytime the models are trained, the variance of the testing dataset is large enough such that, mse and relative mse of each model show consistent result that SFM is better at multi-step forward fx rate prediction, and LSTM is better at single day forward prediction.
@@ -56,18 +63,25 @@
 
 ![cad_lstm_without_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/07dc8003-4448-4eb4-8f65-927bd357960b)
 
+![LSTM_CAD_SINGLE_NO](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/0d702e62-6fba-496b-b615-c7ed98e9eaf6)
+
 **LSTM** Prediction Result for **1 day** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 2.3531084607891723e-05** and **relative mse of 0.09746032965827403**
 
 ![CAD_LSTM_with_wavelet](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/3cfae19b-6da0-473f-be86-707a7b27ab0e)
+
+![LSTM_CAD_SINGLE_DENOISED](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/34685e80-0074-4ebf-865e-f7823380cee2)
 
 **LSTM** Prediction Result for **7 days** forward **Without Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.00010998734393522309** and **relative mse of 0.4848473794803649**
 
 <img width="990" alt="Screenshot 2024-05-08 at 5 50 24 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/30a3bb8d-3255-4906-a445-0b72c044433f">
 
+![LSTM_CAD_MULTI_MSE_NO](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/36f41ab0-221c-482f-a1c4-6ea0ca52fdca)
+
 **LSTM** Prediction Result for **7 days** forward **Using Wavelet** Transform for **CAD/USD** Foreign Exchange Market with **mse of 0.00012634266317769962** and **relative mse of 0.5569450717380287**
 
 <img width="989" alt="Screenshot 2024-05-08 at 5 55 29 AM" src="https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/86828285-e0de-4906-b0bd-90964155a978">
 
+![LSTM_CAD_MULTI_MSE_DENOISE](https://github.com/DanielLiangAjj/quantitative_method_project/assets/100398055/bf0b21ef-de69-49e5-affb-bd9c5f48e51c)
 
 ## Note
 Relative MSE = MSE/VAR(y)
