@@ -1,3 +1,4 @@
+## This branch is the old version of code before Professor Daniel's helpful feedback
 # CNY/USD Prediction Result:
 
 SFM Prediction Result Without Using Wavelet Transform for CNY/USD Foreign Exchange Market with mse of 0.002125
