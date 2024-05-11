@@ -1,3 +1,8 @@
+## This is the lastest version of code after Professor Daniel's helpful feedbacks of:
+## 1. Add multi-step forward prediction for both SFM and LSTM
+## 2. Add relative mse when interpreting prediction result (we also added dataset variance for further clearification of the result)
+## 3. Add plots of mse between predictions and actual data over time
+
 ## CNY/USD Prediction Result （Testing Dataset Variance: 0.026909392040267096):
 
 **SFM** Prediction Result for **1 day** forward **Without Using Wavelet** Transform for **CNY/USD** Foreign Exchange Market with **mse of 0.00043** and **relative mse of 0.016276**
