@@ -16,7 +16,6 @@ from option_parser import OptionParser
 def main():
     parser = OptionParser()
     opt = parser.parse_args()
-    # Specify the path to your CSV file and the output NPY file path
     csv_filepath = 'Data/Foreign_Exchange_Rates.csv'  # Update with the actual path
     npy_filepath = 'Data/output_data.npy'  # Desired output path
     filename = opt.filename
